@@ -18,6 +18,7 @@
 #include <deque>
 #include <mutex>
 #include <thread>
+#include <array>
 #include <condition_variable>
 #include <iostream>
 #include "../include/types.h"

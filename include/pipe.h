@@ -32,7 +32,7 @@ public:
     Pipe(int flags = 0)
     {
         // initialize the pipes
-        if (pipe2(_fds.data(), flags)) throw std::runtime_error(strerror(errno));
+        // TODO: Uncomment if (pipe2(_fds.data(), flags)) throw std::runtime_error(strerror(errno));
     }
 
     /**
